@@ -1,0 +1,49 @@
+{
+  "name": "Dhwanan Bharadva",
+  "version": "0.0.3",
+  "description": "A simple CLI wrapper for adding components from dhwanan.com component registry using shadcn.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "bin": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "start:dev": "node dist/index.js",
+    "publish:release": "pnpm build && pnpm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ncdai",
+    "cli",
+    "shadcn",
+    "components",
+    "registry"
+  ],
+  "author": "Dhwanan Bharadva",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkb73",
+    "directory": ""
+  },
+  "funding": "",
+  "bugs": {
+    "url": ""
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0"
+  },
+  "packageManager": "pnpm@10.10.0"
+}

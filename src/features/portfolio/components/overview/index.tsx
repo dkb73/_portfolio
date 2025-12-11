@@ -60,9 +60,9 @@ export function Overview() {
             <IntroItemContent>
               <IntroItemLink
                 href={USER.website}
-                aria-label={`Personal website: ${urlToName(USER.website)}`}
+                aria-label={`Personal website: ${USER.websiteLabel || urlToName(USER.website)}`}
               >
-                {urlToName(USER.website)}
+                {USER.websiteLabel || urlToName(USER.website)}
               </IntroItemLink>
             </IntroItemContent>
           </IntroItem>

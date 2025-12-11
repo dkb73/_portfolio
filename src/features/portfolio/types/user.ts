@@ -20,6 +20,8 @@ export type User = {
   email: string;
   /** Personal/homepage URL */
   website: string;
+  /** Display label for website link in UI */
+  websiteLabel?: string;
   /** Primary/current role shown on profile */
   jobTitle: string;
   /** Work history entries */

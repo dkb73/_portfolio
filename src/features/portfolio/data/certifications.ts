@@ -12,15 +12,6 @@ export const CERTIFICATIONS: Certification[] = [
       "https://www.coursera.org/account/accomplishments/verify/WJUHA3FTKRD2",
   },
   {
-    title: "Advanced MySQL Topics",
-    issuer: "Meta",
-    issuerLogoURL: "/images/link-icons/Meta.png",
-    issueDate: "2024-01-19",
-    credentialID: "G8UK94UV4UFL ",
-    credentialURL:
-      "https://coursera.org/verify/G8UK94UV4UFL",
-  },
-  {
     title: "Version Control",
     issuer: "Meta",
     // issuerIconName: "vercel",
@@ -31,6 +22,16 @@ export const CERTIFICATIONS: Certification[] = [
       "https://www.coursera.org/account/accomplishments/verify/NM3ZSXCZ2WMJ",
   },
   {
+    title: "Advanced MySQL Topics",
+    issuer: "Meta",
+    issuerLogoURL: "/images/link-icons/Meta.png",
+    issueDate: "2024-01-19",
+    credentialID: "G8UK94UV4UFL ",
+    credentialURL:
+      "https://coursera.org/verify/G8UK94UV4UFL",
+  },
+  
+  {
     title: "Fundamentals of Deep Learning",
     issuer: "Nvidia",
     issuerLogoURL: "/images/link-icons/Nvidia.png",
@@ -39,15 +40,15 @@ export const CERTIFICATIONS: Certification[] = [
     credentialURL:
       "https://learn.nvidia.com/certificates?id=91WGK2QzRDW6bKjZY4IHhg",
   },
-  // {
-  //   title: "React Foundations for Next.js",
-  //   issuer: "Vercel",
-  //   issuerIconName: "vercel",
-  //   issueDate: "2025-04-26",
-  //   credentialID: "react-foundations-47463-1745634245158",
-  //   credentialURL:
-  //     "https://nextjs.org/learn/certificate?course=react-foundations&user=47463&certId=react-foundations-47463-1745634245158",
-  // },
+  {
+    title: "IIITV-SSIP member",
+    issuer: "IIITV",
+    issuerLogoURL: "/images/link-icons/IIITV_logo.png",
+    issueDate: "2024-12-01",
+    credentialID: "",
+    credentialURL:
+      "https://drive.google.com/file/d/1Ub6R6Q9wIZHMgZZUSSjKbiGybm0wq3b0/view?usp=sharing",
+  },
   // {
   //   title: "Certificate of Copyright Registration No. 0040/2025/QTG",
   //   issuer: "Copyright Office of Viet Nam",

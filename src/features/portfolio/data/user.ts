@@ -23,7 +23,7 @@ export const USER: User = {
     {
       title: "Upcoming SDE intern",
       company: "Fintech Global Center",
-      website: "https://simplamo.com?ref=IN-926722",
+      website: "https://www.fintechglobal.center/",
     },
     {
       title: "Ex- SDE intern",

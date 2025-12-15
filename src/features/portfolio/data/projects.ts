@@ -36,7 +36,8 @@ export const PROJECTS: Project[] = [
     id: "chanhdaidotcom",
     title: "BulkProcessor — CSV Processing System",
     period: {
-      start: "01.2025",
+      start: "08.2025",
+      end: "08.2025"
     },
     link: "https://github.com/dkb73/BulkProcessor",
     skills: [
